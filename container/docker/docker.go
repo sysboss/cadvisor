@@ -24,8 +24,8 @@ import (
 	dockertypes "github.com/docker/engine-api/types"
 	"golang.org/x/net/context"
 
-	"github.com/google/cadvisor/info/v1"
-	"github.com/google/cadvisor/machine"
+	"github.com/sysboss/cadvisor/info/v1"
+	"github.com/sysboss/cadvisor/machine"
 )
 
 func Status() (v1.DockerStatus, error) {

@@ -28,10 +28,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/cadvisor/events"
-	httpmux "github.com/google/cadvisor/http/mux"
-	info "github.com/google/cadvisor/info/v1"
-	"github.com/google/cadvisor/manager"
+	"github.com/sysboss/cadvisor/events"
+	httpmux "github.com/sysboss/cadvisor/http/mux"
+	info "github.com/sysboss/cadvisor/info/v1"
+	"github.com/sysboss/cadvisor/manager"
 
 	"github.com/golang/glog"
 )

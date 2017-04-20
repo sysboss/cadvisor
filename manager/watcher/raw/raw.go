@@ -23,9 +23,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/google/cadvisor/container/common"
-	"github.com/google/cadvisor/container/libcontainer"
-	"github.com/google/cadvisor/manager/watcher"
+	"github.com/sysboss/cadvisor/container/common"
+	"github.com/sysboss/cadvisor/container/libcontainer"
+	"github.com/sysboss/cadvisor/manager/watcher"
 
 	"github.com/golang/glog"
 	"golang.org/x/exp/inotify"

@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/cadvisor/integration/framework"
+	"github.com/sysboss/cadvisor/integration/framework"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/cadvisor/info/v1"
+	"github.com/sysboss/cadvisor/info/v1"
 
-	containertest "github.com/google/cadvisor/container/testing"
+	containertest "github.com/sysboss/cadvisor/container/testing"
 	"github.com/stretchr/testify/assert"
 )
 

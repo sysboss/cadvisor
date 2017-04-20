@@ -18,7 +18,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/google/cadvisor/container"
+	"github.com/sysboss/cadvisor/container"
 	"github.com/stretchr/testify/assert"
 )
 

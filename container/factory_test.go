@@ -17,9 +17,9 @@ package container_test
 import (
 	"testing"
 
-	"github.com/google/cadvisor/container"
-	containertest "github.com/google/cadvisor/container/testing"
-	"github.com/google/cadvisor/manager/watcher"
+	"github.com/sysboss/cadvisor/container"
+	containertest "github.com/sysboss/cadvisor/container/testing"
+	"github.com/sysboss/cadvisor/manager/watcher"
 
 	"github.com/stretchr/testify/mock"
 )

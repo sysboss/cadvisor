@@ -22,11 +22,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/google/cadvisor/fs"
-	info "github.com/google/cadvisor/info/v1"
-	"github.com/google/cadvisor/utils/cloudinfo"
-	"github.com/google/cadvisor/utils/sysfs"
-	"github.com/google/cadvisor/utils/sysinfo"
+	"github.com/sysboss/cadvisor/fs"
+	info "github.com/sysboss/cadvisor/info/v1"
+	"github.com/sysboss/cadvisor/utils/cloudinfo"
+	"github.com/sysboss/cadvisor/utils/sysfs"
+	"github.com/sysboss/cadvisor/utils/sysinfo"
 
 	"github.com/golang/glog"
 )

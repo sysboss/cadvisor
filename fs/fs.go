@@ -34,8 +34,8 @@ import (
 
 	"github.com/docker/docker/pkg/mount"
 	"github.com/golang/glog"
-	"github.com/google/cadvisor/devicemapper"
-	dockerutil "github.com/google/cadvisor/utils/docker"
+	"github.com/sysboss/cadvisor/devicemapper"
+	dockerutil "github.com/sysboss/cadvisor/utils/docker"
 	zfs "github.com/mistifyio/go-zfs"
 )
 

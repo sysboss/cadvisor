@@ -25,15 +25,15 @@ import (
 
 	"net/http"
 
-	"github.com/google/cadvisor/cache/memory"
-	"github.com/google/cadvisor/collector"
-	"github.com/google/cadvisor/container"
-	"github.com/google/cadvisor/container/docker"
-	containertest "github.com/google/cadvisor/container/testing"
-	info "github.com/google/cadvisor/info/v1"
-	itest "github.com/google/cadvisor/info/v1/test"
-	"github.com/google/cadvisor/info/v2"
-	"github.com/google/cadvisor/utils/sysfs/fakesysfs"
+	"github.com/sysboss/cadvisor/cache/memory"
+	"github.com/sysboss/cadvisor/collector"
+	"github.com/sysboss/cadvisor/container"
+	"github.com/sysboss/cadvisor/container/docker"
+	containertest "github.com/sysboss/cadvisor/container/testing"
+	info "github.com/sysboss/cadvisor/info/v1"
+	itest "github.com/sysboss/cadvisor/info/v1/test"
+	"github.com/sysboss/cadvisor/info/v2"
+	"github.com/sysboss/cadvisor/utils/sysfs/fakesysfs"
 	"github.com/stretchr/testify/assert"
 )
 

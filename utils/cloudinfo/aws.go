@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	info "github.com/google/cadvisor/info/v1"
+	info "github.com/sysboss/cadvisor/info/v1"
 )
 
 const (

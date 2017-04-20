@@ -51,7 +51,7 @@ On some versions of RHEL and CentOS the cgroup hierarchies are mounted in `/cgro
 
 ### Debian
 
-By default, Debian disables the memory cgroup which does not allow cAdvisor to gather memory stats. To enable the memory cgroup take a look at [these instructions](https://github.com/google/cadvisor/issues/432).
+By default, Debian disables the memory cgroup which does not allow cAdvisor to gather memory stats. To enable the memory cgroup take a look at [these instructions](https://github.com/sysboss/cadvisor/issues/432).
 
 ### LXC Docker exec driver
 

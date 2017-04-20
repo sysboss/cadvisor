@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	info "github.com/google/cadvisor/info/v1"
+	info "github.com/sysboss/cadvisor/info/v1"
 
 	"github.com/golang/glog"
 )

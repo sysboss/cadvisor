@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/cadvisor/container"
-	info "github.com/google/cadvisor/info/v1"
-	"github.com/google/cadvisor/utils"
+	"github.com/sysboss/cadvisor/container"
+	info "github.com/sysboss/cadvisor/info/v1"
+	"github.com/sysboss/cadvisor/utils"
 
 	"github.com/golang/glog"
 )

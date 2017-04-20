@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/cadvisor/client"
-	"github.com/google/cadvisor/client/v2"
+	"github.com/sysboss/cadvisor/client"
+	"github.com/sysboss/cadvisor/client/v2"
 )
 
 var host = flag.String("host", "localhost", "Address of the host being tested")

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/google/cadvisor/manager/watcher"
+	"github.com/sysboss/cadvisor/manager/watcher"
 
 	"github.com/golang/glog"
 )

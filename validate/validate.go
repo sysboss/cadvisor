@@ -25,9 +25,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/google/cadvisor/container/docker"
-	"github.com/google/cadvisor/manager"
-	"github.com/google/cadvisor/utils"
+	"github.com/sysboss/cadvisor/container/docker"
+	"github.com/sysboss/cadvisor/manager"
+	"github.com/sysboss/cadvisor/utils"
 
 	"github.com/opencontainers/runc/libcontainer/cgroups"
 )

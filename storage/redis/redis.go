@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	info "github.com/google/cadvisor/info/v1"
-	storage "github.com/google/cadvisor/storage"
+	info "github.com/sysboss/cadvisor/info/v1"
+	storage "github.com/sysboss/cadvisor/storage"
 
 	redis "github.com/garyburd/redigo/redis"
 )

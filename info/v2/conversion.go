@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/cadvisor/info/v1"
+	"github.com/sysboss/cadvisor/info/v1"
 )
 
 func machineFsStatsFromV1(fsStats []v1.FsStats) []MachineFsStats {

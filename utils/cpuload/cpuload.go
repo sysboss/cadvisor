@@ -17,10 +17,10 @@ package cpuload
 import (
 	"fmt"
 
-	info "github.com/google/cadvisor/info/v1"
+	info "github.com/sysboss/cadvisor/info/v1"
 
 	"github.com/golang/glog"
-	"github.com/google/cadvisor/utils/cpuload/netlink"
+	"github.com/sysboss/cadvisor/utils/cpuload/netlink"
 )
 
 type CpuLoadReader interface {

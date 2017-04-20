@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/google/cadvisor/utils"
-	"github.com/google/cadvisor/utils/tail"
+	"github.com/sysboss/cadvisor/utils"
+	"github.com/sysboss/cadvisor/utils/tail"
 
 	"github.com/golang/glog"
 )

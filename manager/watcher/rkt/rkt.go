@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/google/cadvisor/container/rkt"
-	"github.com/google/cadvisor/manager/watcher"
+	"github.com/sysboss/cadvisor/container/rkt"
+	"github.com/sysboss/cadvisor/manager/watcher"
 
 	rktapi "github.com/coreos/rkt/api/v1alpha"
 	"github.com/golang/glog"

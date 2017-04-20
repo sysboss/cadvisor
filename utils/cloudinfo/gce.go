@@ -18,7 +18,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	info "github.com/google/cadvisor/info/v1"
+	info "github.com/sysboss/cadvisor/info/v1"
 
 	"cloud.google.com/go/compute/metadata"
 	"github.com/golang/glog"

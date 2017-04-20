@@ -24,7 +24,7 @@ test-integration:
 	@./build/integration.sh
 
 test-runner:
-	@$(GO) build github.com/google/cadvisor/integration/runner
+	@$(GO) build github.com/sysboss/cadvisor/integration/runner
 
 format:
 	@echo ">> formatting code"

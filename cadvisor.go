@@ -26,11 +26,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/google/cadvisor/container"
-	cadvisorhttp "github.com/google/cadvisor/http"
-	"github.com/google/cadvisor/manager"
-	"github.com/google/cadvisor/utils/sysfs"
-	"github.com/google/cadvisor/version"
+	"github.com/sysboss/cadvisor/container"
+	cadvisorhttp "github.com/sysboss/cadvisor/http"
+	"github.com/sysboss/cadvisor/manager"
+	"github.com/sysboss/cadvisor/utils/sysfs"
+	"github.com/sysboss/cadvisor/version"
 
 	"crypto/tls"
 

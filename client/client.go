@@ -28,7 +28,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/google/cadvisor/info/v1"
+	"github.com/sysboss/cadvisor/info/v1"
 
 	"github.com/golang/glog"
 	"time"

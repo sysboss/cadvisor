@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	info "github.com/google/cadvisor/info/v1"
+	info "github.com/sysboss/cadvisor/info/v1"
 )
 
 func TestScanInterfaceStats(t *testing.T) {

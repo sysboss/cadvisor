@@ -4,7 +4,7 @@ Google internal-only version: [cAdvisor Release Instructions](http://go/cadvisor
 
 ## 1. Send Release PR
 
-Example: https://github.com/google/cadvisor/pull/1281
+Example: https://github.com/sysboss/cadvisor/pull/1281
 
 Add release notes to [CHANGELOG.md](../../CHANGELOG.md)
 
@@ -76,10 +76,10 @@ $ gcloud auth revoke # Log out of shared account
 
 ## 5. Cut the release
 
-Go to https://github.com/google/cadvisor/releases and click "Draft a new release"
+Go to https://github.com/sysboss/cadvisor/releases and click "Draft a new release"
 
 - "Tag version" and "Release title" should be preceded by 'v' and then the version. Select the tag pushed in step 2.b
-- Copy an old release as a template (e.g. github.com/google/cadvisor/releases/tag/v0.23.1)
+- Copy an old release as a template (e.g. github.com/sysboss/cadvisor/releases/tag/v0.23.1)
 - Body should start with release notes (from CHANGELOG.md)
 - Next is the Docker image: `google/cadvisor:$VERSION`
 - Next are the binary hashes (from step 3)

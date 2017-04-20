@@ -17,8 +17,8 @@ package main
 import (
 	"flag"
 
-	"github.com/google/cadvisor/client"
-	info "github.com/google/cadvisor/info/v1"
+	"github.com/sysboss/cadvisor/client"
+	info "github.com/sysboss/cadvisor/info/v1"
 
 	"github.com/golang/glog"
 )

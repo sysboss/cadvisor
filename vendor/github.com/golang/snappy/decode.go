@@ -134,7 +134,7 @@ func Decode(dst, src []byte) ([]byte, error) {
 
 // NewReader returns a new Reader that decompresses from r, using the framing
 // format described at
-// https://github.com/google/snappy/blob/master/framing_format.txt
+// https://github.com/sysboss/snappy/blob/master/framing_format.txt
 func NewReader(r io.Reader) *Reader {
 	return &Reader{
 		r:       r,
@@ -204,7 +204,7 @@ func (r *Reader) Read(p []byte) (int, error) {
 		}
 
 		// The chunk types are specified at
-		// https://github.com/google/snappy/blob/master/framing_format.txt
+		// https://github.com/sysboss/snappy/blob/master/framing_format.txt
 		switch chunkType {
 		case chunkTypeCompressedData:
 			// Section 4.2. Compressed data (chunk type 0x00).

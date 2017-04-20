@@ -17,7 +17,7 @@ package api
 import (
 	"testing"
 
-	"github.com/google/cadvisor/integration/framework"
+	"github.com/sysboss/cadvisor/integration/framework"
 
 	"github.com/stretchr/testify/assert"
 )

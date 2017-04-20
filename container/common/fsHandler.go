@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/cadvisor/fs"
+	"github.com/sysboss/cadvisor/fs"
 
 	"github.com/golang/glog"
 )
