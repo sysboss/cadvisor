@@ -22,7 +22,7 @@ BUILD_USER=${BUILD_USER:-"${USER}@${HOSTNAME}"}
 BUILD_DATE=${BUILD_DATE:-$( date +%Y%m%d-%H:%M:%S )}
 VERBOSE=${VERBOSE:-}
 
-repo_path="github.com/google/cadvisor"
+repo_path="github.com/sysboss/cadvisor"
 
 version=$( git describe --tags --dirty --abbrev=14 | sed -E 's/-([0-9]+)-g/.\1+/' )
 revision=$( git rev-parse --short HEAD 2> /dev/null || echo 'unknown' )
