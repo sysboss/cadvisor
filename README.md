@@ -6,6 +6,12 @@ cAdvisor has native support for [Docker](https://github.com/docker/docker) conta
 
 ![cAdvisor](logo.png "cAdvisor")
 
+#### Compiling cAdvisor
+This will compile cAdvisor inside Go Docker container
+```
+docker run --rm -ti -v "$(pwd):/go/src/github.com/sysboss/cadvisor" -w /go/src/github.com/sysboss/cadvisor golang:1.7 build/jenkins.sh
+```
+
 #### Quick Start: Running cAdvisor in a Docker Container
 
 To quickly tryout cAdvisor on your machine with Docker, we have a Docker image that includes everything you need to get started. You can run a single cAdvisor to monitor the whole machine. Simply run:
